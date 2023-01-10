@@ -1,9 +1,7 @@
 body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/charmander8bit.jpg");
     background-attachment: fixed;
-    background-color: #C3EDFD;
-    background-repeat: no-repeat;
-    background-position: bottom right;
+    background-color: #000;
     margin: 0;
     font-family: rubik;
     color: black;
