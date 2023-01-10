@@ -1,0 +1,13 @@
+.buscar_pokemon {
+    width: 250px;
+    margin-bottom: 100px;
+    height: 56px;
+    border-radius: 16px;
+    border: 4px solid black;
+    font-size: large;
+    padding-left: 20px;
+  }
+
+  .logo-pokemon {
+    width: 20%;
+  }
