@@ -1,11 +1,16 @@
 body {
-    background-image: url("../assets/charmander.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/pattern.jpg");
+    background-attachment: fixed;
     background-color: #C3EDFD;
     background-repeat: no-repeat;
     background-position: bottom right;
     margin: 0;
     font-family: rubik;
     color: black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
   }
   .container {
     padding: 40px;
