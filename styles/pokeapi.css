@@ -1,5 +1,8 @@
 body {
-    background-image: url("../assets/wallpaper.jpg");
+    background-image: url("../assets/charmander.jpg");
+    background-color: #C3EDFD;
+    background-repeat: no-repeat;
+    background-position: bottom right;
     margin: 0;
     font-family: rubik;
     color: white;
