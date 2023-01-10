@@ -8,6 +8,11 @@
     padding-left: 20px;
   }
 
-  .logo-pokemon {
-    width: 20%;
+  header {
+    display: flex;
+    justify-content: center;
+  }
+
+  header img {
+    width: 50%;
   }
