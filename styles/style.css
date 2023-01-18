@@ -40,10 +40,10 @@ border-radius: 8px;
 }
 
 body {
-  background-color: rgb(65, 121, 91);
-  margin: 0;
-  font-family: rubik;
-  color: white;
+    background-color: #908F7A;
+    margin: 0;
+    font-family: rubik;
+    color: #262718;
 }
 .container {
   padding: 20px;
@@ -58,11 +58,12 @@ h1 {
   list-style: none;
   padding: 40px;
   background-color: #f4f4f4;
-  color: #222;
   text-align: center;
   width: 200px;
   border-radius: 16px;
   border: 2px solid black;
+  background: rgb(144,143,122);
+  background: linear-gradient(0deg, rgba(144,143,122,1) 0%, rgba(209,208,189,1) 80%);
 }
 .poke__nombre {
   text-transform: uppercase;
