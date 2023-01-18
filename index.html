@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>La Pokedex de Juan</title>
-    <link rel="stylesheet" href="styles/pokeapi.css" />
-    <link rel="stylesheet" href="styles/style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/pokedex.js" defer></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>¡Hazte con todos!</title>
     <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet" />
 </head>
-
 <body>
-
-    <header>
-        <img src="./assets/logo-pokemon.png" class="logo-pokemon" alt="logo Pokemon">
+    
+  
+    <header class="header">
+        <div class="container">
+            <h1>Pokedex</h1>
+        </div>
+        <input type="text" class="BuscadorPokemon" placeholder="Busca aquí tu Pokemón" >
     </header>
-
-    <input type="text" class="buscar_pokemon" placeholder="busca aquí tu pokémon" >
-        <section class="section1">
-            <div class="gallery"></div>
-        </section>
-
-    <script src="js/pokedex.js"></script>
+    
+ 
+   
+    <section class="section">
+    <div class="list"></div>
+</section>
 </body>
-
 </html>
